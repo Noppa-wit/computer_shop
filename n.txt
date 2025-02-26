@@ -1,0 +1,23 @@
+// สร้างตัวแปรดึง session
+
+
+; user.email
+; user.name
+; user.role
+
+user.role === "admin" ? ( true ) : ( false )
+user.role === "admin" && ( true )
+
+const user = JSON.parse(sessionStorage.getItem("user"));
+{user?.role === "admin" ? (
+
+) : (<>
+                    Status: {order.status}
+                  </>)}
+
+
+const logout = () => {
+  sessionStorage.removeItem("user");
+  console.log("User session destroyed. Logged out successfully.");
+  window.location.href = "/login";
+}

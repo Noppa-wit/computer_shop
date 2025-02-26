@@ -1,0 +1,23 @@
+cd c:/
+
+npm init react-app myshop
+y
+
+cd myshop
+
+npm install web-vitals
+
+npm install axios react-router-dom bootstrap
+
+//npm install react-bootstrap bootstrap
+
+npm install framer-motion react-bootstrap bootstrap
+
+npm install animate.css
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+npm i dayjs
+
+npm start
+
