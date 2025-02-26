@@ -1,0 +1,11 @@
+cd c:/
+
+cd shop_api
+
+npm init -y
+
+npm install bcryptjs
+
+npm install multer
+
+node index.js
